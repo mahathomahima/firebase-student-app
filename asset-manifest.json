@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/firebase-student-app/static/css/main.97b0283f.css",
-    "main.js": "/firebase-student-app/static/js/main.d08ba741.js",
-    "static/js/488.ad509288.chunk.js": "/firebase-student-app/static/js/488.ad509288.chunk.js",
-    "index.html": "/firebase-student-app/index.html",
-    "main.97b0283f.css.map": "/firebase-student-app/static/css/main.97b0283f.css.map",
-    "main.d08ba741.js.map": "/firebase-student-app/static/js/main.d08ba741.js.map",
-    "488.ad509288.chunk.js.map": "/firebase-student-app/static/js/488.ad509288.chunk.js.map"
+    "main.css": "/student-app/static/css/main.97b0283f.css",
+    "main.js": "/student-app/static/js/main.efc51086.js",
+    "static/js/488.ad509288.chunk.js": "/student-app/static/js/488.ad509288.chunk.js",
+    "index.html": "/student-app/index.html",
+    "main.97b0283f.css.map": "/student-app/static/css/main.97b0283f.css.map",
+    "main.efc51086.js.map": "/student-app/static/js/main.efc51086.js.map",
+    "488.ad509288.chunk.js.map": "/student-app/static/js/488.ad509288.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97b0283f.css",
-    "static/js/main.d08ba741.js"
+    "static/js/main.efc51086.js"
   ]
 }
