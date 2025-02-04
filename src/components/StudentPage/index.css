@@ -1,0 +1,165 @@
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+  
+  /* Dashboard Container */
+.dashboard {
+    display: flex;
+}
+  
+.sidebar {
+    width: 200px;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+  
+.sidebar button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.sidebar button:hover {
+    background-color: rgb(123, 180, 199);
+}
+  
+.logout {
+    background-color: #e74c3c;
+}
+  
+.logout:hover {
+    background-color: #c0392b;
+}
+  
+  /* Students Page */
+.students-page {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    flex: 1;
+}
+  
+h2 {
+    margin-bottom: 20px;
+}
+.add-student{
+    padding: 12px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(123, 180, 199);
+    border: none;
+    border-radius: 5px;
+}
+.add-student button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+.add-student:hover {
+    background-color: #16a085;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+  
+th {
+    background-color: #34495e;
+    color: white;
+}
+  
+td {
+    background-color: #ecf0f1;
+}
+  
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit {
+    width: 15px;
+    border: none;
+    margin-right: 10px;
+}
+  
+.delete {
+    border: none;
+    width: 15px;
+}
+
+
+  /* Modal */
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.modal h2{
+    font-size: 25px;
+    color: #62676c;
+}
+.modal div {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+}  
+.modal input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.modal button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.modal button:hover {
+    background-color: #16a085;
+}
+  
